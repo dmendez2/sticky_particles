@@ -1,0 +1,13 @@
+# Common simulation/data folders
+data/
+log/
+snapshots/
+trajectories/
+hoomd-blue/
+sticky_venv/
+py_log/
+*.npy
+*.tif
+*.log
+*.gsd
+__pycache__/
