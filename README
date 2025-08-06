@@ -1,1 +1,4 @@
 To run this code, you will need to install HOOMD-Blue from source and enable MPI for multiprocessing. 
+mxene_patches.py runs simulations with each patchy particle having the same number of patches
+multi_patches.py runs simulations where the variable max_patches can be set. Patchy particles can have between 1 to max_patches number of patches.
+dynamic_patch_size.py is an incomplete attempt to create particles with different diameters drawn from a log-normal distribution. It would also support having between 1 to max_patches per patchy particle. 
